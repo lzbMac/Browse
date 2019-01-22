@@ -1,9 +1,9 @@
 //
 //  CustomCellData.m
-//  YBImageBrowserDemo
+//  CZYImageBrowserDemo
 //
-//  Created by 杨波 on 2018/8/26.
-//  Copyright © 2018年 杨波. All rights reserved.
+//  Created by 李正兵 on 2018/8/26.
+//  Copyright © 2018年 李正兵. All rights reserved.
 //
 
 #import "CustomCellData.h"
@@ -14,12 +14,12 @@
 
 @implementation CustomCellData
 
-#pragma mark - <YBImageBrowserCellDataProtocol>
+#pragma mark - <CZYImageBrowserCellDataProtocol>
 
 
 // optional method
 
-- (BOOL)yb_browserAllowShowSheetView {
+- (BOOL)czy_browserAllowShowSheetView {
     return NO;
 }
 

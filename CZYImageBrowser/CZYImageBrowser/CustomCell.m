@@ -2,8 +2,8 @@
 //  CustomCell.m
 //  CZYImageBrowserDemo
 //
-//  Created by 杨波 on 2018/8/26.
-//  Copyright © 2018年 杨波. All rights reserved.
+//  Created by 李正兵 on 2018/8/26.
+//  Copyright © 2018年 李正兵. All rights reserved.
 //
 
 #import "CustomCell.h"

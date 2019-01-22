@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CZYImageBrowser : UIViewController
 /**
- 数据源数组，数组元素类型可以为'YBImageBrowseCellData', 'YBVideoBrowseCellData'.
+ 数据源数组，数组元素类型可以为'CZYImageBrowseCellData', 'CZYVideoBrowseCellData'.
  */
 @property (nonatomic, copy) NSArray<id<CZYImageBrowserCellDataProtocol>> *dataSourceArray;
 /**
@@ -94,7 +94,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UIColor *backgroundColor;
 
 /**
- 自动隐藏 'SourceObject'. 'SourceObject'的说明见 'YBImageBrowseCellData' 或 'YBVideoBrowseCellData'的头文件
+ 自动隐藏 'SourceObject'. 'SourceObject'的说明见 'CZYImageBrowseCellData' 或 'CZYVideoBrowseCellData'的头文件
  */
 @property (nonatomic, assign) BOOL autoHideSourceObject;
 
