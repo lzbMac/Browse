@@ -1,0 +1,6 @@
+framework module Pods_CZYImageBrowser {
+  umbrella header "Pods-CZYImageBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}
